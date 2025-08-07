@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Good Luck Salihah 💖</title>
+  <style>
+    body {
+      background-color: #ffe6f2;
+      font-family: 'Comic Sans MS', cursive;
+      color: #d63384;
+      text-align: center;
+      padding: 50px;
+    }
+    h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+      animation: pulse 2s infinite;
+    }
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.1); color: #ff66b2; }
+      100% { transform: scale(1); }
+    }
+    p {
+      font-size: 24px;
+      margin: 10px;
+    }
+    .love {
+      font-size: 80px;
+      animation: float 3s infinite;
+    }
+    @keyframes float {
+      0% { transform: translateY(0); }
+      50% { transform: translateY(-15px); }
+      100% { transform: translateY(0); }
+    }
+    audio {
+      margin-top: 30px;
+    }
+    .btn {
+      background-color: #ff99cc;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      font-size: 18px;
+      border-radius: 10px;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="love">🎯💖</div>
+  <h1>Good Luck, Salihah! 🌸</h1>
+  <p>Esok hari besar awak – game petanque!</p>
+  <p>Saya tahu awak akan buat yang terbaik 💪</p>
+  <p>Fokus, senyum, dan enjoy the moment 😘</p>
+  <p>Ingat, awak selalu jadi "favourite girl" saya 💖</p>
+
+  <audio controls autoplay loop>
+    <source src="favourite-girl.mp3" type="audio/mpeg">
+    Lagu awak tak dapat dimainkan 😢
+  </audio>
+
+  <br>
+  <button class="btn" onclick="alert('GO SALIHAH GO!! 💪💕')">Klik untuk semangat!</button>
+</body>
+</html>
